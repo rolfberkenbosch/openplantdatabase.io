@@ -1,5 +1,4 @@
-{
-	"plants": [
+[
 {
         "origin": "China", 
         "min_soil_moist": "15", 
@@ -61,4 +60,3 @@
         "max_temp": "35"
     }
 ]
-}
