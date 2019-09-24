@@ -1,4 +1,6 @@
-    {
+{
+	"plants": [
+{
         "origin": "China", 
         "min_soil_moist": "15", 
         "min_env_humid": "30", 
@@ -58,3 +60,5 @@
         "blooming": "Flowering period May, fruiting period August-September", 
         "max_temp": "35"
     }
+]
+}
