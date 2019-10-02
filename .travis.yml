@@ -1,9 +1,9 @@
 language: ruby
 rvm:
-- 2.4.0
+- 2.5.3
 
 install: gem install jekyll
-script: jekyll build
+script:  bundle update rake && jekyll build
 after_success:
   - bash <(curl -s https://copilot.blackducksoftware.com/ci/travis/scripts/upload)
 sudo: false
