@@ -3,7 +3,7 @@ rvm:
 - 2.5.3
 
 install: gem install jekyll
-script:  gem install bundler -v '~> 1.12' && bundle install rake && jekyll build
+script:  gem install bundler -v '~> 1.12' && jekyll build
 after_success:
   - bash <(curl -s https://copilot.blackducksoftware.com/ci/travis/scripts/upload)
 sudo: false
