@@ -205,7 +205,7 @@ loadJSON(function(response) {
                     if ((val.pid.search(regex) != -1) || (val.display_pid.search(regex) != -1)) {
                         output += '  <div class="team-box">';
                         output += '        <div class="team-image">';
-                        output += '            <img src="images/plants/'+val.display_pid+'.jpg" alt="'+ val.display_pid +'">';
+                        output += '            <img src="images/plants/'+val.display_pid.toLowerCase()+'.jpg" alt="'+ val.display_pid +'">';
                         output += '        </div>';
                         output += '        <h4>' + val.display_pid + '</h4>';
                         output += '        <h6 class="position">PlantID: ' + val.pid + '</h6>';
