@@ -36,9 +36,8 @@ CSS INDEX
 /*-----------------
 1. Google font
 ------------------*/
-
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700,800');
-
+@import url('http://fonts.googleapis.com/css?family=Montserrat:400,700');
+@import url('http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic');
 /*-------------------
 2. Theme Default CSS
 --------------------*/
@@ -76,6 +75,7 @@ h3,
 h4,
 h5,
 h6 {
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     margin: 0 0 15px;
     font-weight: 400;
     line-height: 1.4em;
@@ -99,7 +99,7 @@ body {
 }
 
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 32px;
@@ -228,6 +228,7 @@ input:-webkit-autofill:focus {
 }
 
 .section-padding {
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     padding-top: 120px;
     padding-bottom: 120px;
 }
@@ -283,7 +284,7 @@ input:-webkit-autofill:focus {
 }
 
 .blue-color {
-    color: #5e88fc;
+    color: #2e7d32;
 }
 
 .green-color {
@@ -320,10 +321,10 @@ input:-webkit-autofill:focus {
     top: 0;
     width: 100%;
     height: 100%;
-    background: rgb(72, 44, 191);
-    background: -webkit-linear-gradient(45deg, rgba(72, 44, 191, 1) 0%, rgba(106, 198, 240, 1) 100%);
-    background: -o-linear-gradient(45deg, rgba(72, 44, 191, 1) 0%, rgba(106, 198, 240, 1) 100%);
-    background: linear-gradient(45deg, rgba(72, 44, 191, 1) 0%, rgba(106, 198, 240, 1) 100%);
+    background: rgb(27, 94, 32);
+    background: -webkit-linear-gradient(45deg, rgba(27, 94, 32, 1) 0%, rgba(67 ,160 ,71, 1) 100%);
+    background: -o-linear-gradient(45deg, rgba(27, 94, 32, 1) 0%, rgba(67 ,160 ,71, 1) 100%);
+    background: linear-gradient(45deg, rgba(27, 94, 32, 1) 0%, rgba(67 ,160 ,71, 1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#482cbf', endColorstr='#6ac6f0', GradientType=1);
     z-index: -1;
     opacity: 0;
@@ -378,6 +379,7 @@ input:-webkit-autofill:focus {
 
 .mainmenu-area ul.nav.navbar-nav li a {
     color: #ffffff;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     padding: 10px 2px;
     text-transform: capitalize;
     background: transparent;
@@ -409,6 +411,7 @@ input:-webkit-autofill:focus {
     letter-spacing: 1.5px;
     color: #8790af;
     font-weight: 600;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 .text-center.page-title .title:before,
@@ -427,6 +430,7 @@ input:-webkit-autofill:focus {
 /*-- 7. Home-Area --*/
 
 .home-area {
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     width: 100%;
     background: url('images/plants-bg.jpg') no-repeat scroll center bottom / cover;
     padding-top: 26vh;
@@ -490,7 +494,7 @@ input:-webkit-autofill:focus {
 
 .feature-area {
     color: #ffffff;
-    background-color: #5e88fc;
+    background-color: #2e7d32;
     background-image: url('images/feature-bg.png');
     background-position: bottom -120px center;
     background-repeat: no-repeat;
@@ -536,7 +540,7 @@ input:-webkit-autofill:focus {
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#482cbf', endColorstr='#6ac6f0', GradientType=1);
     overflow: hidden;
     z-index: 1;
-    color: #5e88fc;
+    color: #2e7d32;
     -webkit-transition: 0.3s;
     -o-transition: 0.3s;
     transition: 0.3s;
@@ -616,7 +620,7 @@ input:-webkit-autofill:focus {
 }
 
 .team-box h4 {
-    color: #5e88fc;
+    color: #43a047;
     font-weight: 600;
     font-size: 20px;
 }
@@ -868,7 +872,7 @@ input:-webkit-autofill:focus {
     outline: none;
     padding: 20px 30px 20px 60px;
     color: #434345;
-    border-left: 5px solid #5e88fc;
+    border-left: 5px solid #2e7d32;
     cursor: pointer;
     position: relative;
 }
@@ -902,7 +906,7 @@ input:-webkit-autofill:focus {
 .toggole-boxs div {
     background-color: #ffffff;
     padding: 0 30px 20px 60px;
-    border-left: 5px solid #5e88fc;
+    border-left: 5px solid #2e7d32;
 }
 
 /*-- 17. Subscribe-Form --*/
@@ -926,7 +930,7 @@ input:-webkit-autofill:focus {
     height: auto;
     padding: 15px 180px 15px 30px;
     border-radius: 100px;
-    border: 1px solid #5e88fc;
+    border: 1px solid  #43a047;
 }
 
 .subscribe-form form .bttn-white {
@@ -985,7 +989,7 @@ input:-webkit-autofill:focus {
 }
 
 .footer-box:hover .box-icon {
-    color: #5e88fc;
+    color: #2e7d32;
 }
 
 .footer-box:hover .box-icon:before {
@@ -994,8 +998,8 @@ input:-webkit-autofill:focus {
 
 .footer-bottom {
     padding: 20px 0;
-    background-color: #f5f6ff;
-    border-top: 1px solid #5e88fc;
+    background-color: #e8f5e9;
+    border-top: 1px solid rgba(27, 94, 32, 1);
 }
 
 .footer-bottom .footer-menu ul {
@@ -1015,7 +1019,7 @@ input:-webkit-autofill:focus {
 }
 
 .footer-bottom .footer-menu ul li a:hover {
-    color: #5e88fc;
+    color: #2e7d32;
 }
 
 /*-- 19. ScrollUp-Button --*/
@@ -1028,7 +1032,7 @@ input:-webkit-autofill:focus {
     text-align: center;
     line-height: 60px;
     font-size: 30px;
-    color: #5e88fc;
+    color: #2e7d32;
 }
 
 .preloader {
